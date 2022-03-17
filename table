@@ -1,0 +1,61 @@
+  
+
+ 
+create table restuarant(billid number(10),name varchar2(10),ph_number number(10),amount number(10));
+create sequence billid
+   start with 1000001
+    increment by 1
+   minvalue 1000001
+   maxvalue 1000999
+   cycle;
+insert into restaurant values(billid.nextval,'vidya',907,790);
+select * from restaurant;
+commit;
+
+ 
+
+
+
+
+
+
+Results 
+
+Explain 
+
+Describe 
+
+Saved SQL 
+
+History 
+
+ 
+
+
+
+          
+        
+
+
+
+BILLID
+
+CUSTNAME
+
+PHNO
+
+AMOUNT
+
+1000001 chaithu 1234 100 
+1000002 chinnu 4321 200 
+1000003 jaya 9876 900 
+1000004 raji 9896 500 
+1000005 raju 9897 600 
+1000006 maggi 97897 670 
+1000007 chanti 9497 770 
+1000008 sowji 697 770 
+1000009 div 697 790 
+1000010 ramya 997 790 
+More than 10 rows available. Increase rows selector to view more rows. 
+
+10 rows returned in 0.00 seconds          
