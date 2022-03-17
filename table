@@ -8,35 +8,8 @@ create sequence billid
    minvalue 1000001
    maxvalue 1000999
    cycle;
-insert into restaurant values(billid.nextval,'vidya',907,790);
-select * from restaurant;
-commit;
-
- 
-
-
-
-
-
-
+select * from restuarant;
 Results 
-
-Explain 
-
-Describe 
-
-Saved SQL 
-
-History 
-
- 
-
-
-
-          
-        
-
-
 
 BILLID
 
